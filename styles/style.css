@@ -384,4 +384,25 @@ nav{
     .fact{
         padding: 46px 22px;
     }
+
+    /* Sponsor section */
+    .section-sponsor{
+        padding: 0px 20px;
+    }
+    .sponsor-heading{
+        font-size: 36px;
+    }
+    .sponsor-text{
+        width: 100%;
+    }
+    .sponsors{
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .sponsors img{
+        width: 100px;
+    }
 }
