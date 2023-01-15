@@ -199,6 +199,49 @@ nav{
     font-size: 65px;
 }
 
+/* Facts Section */
+.section-facts{
+    padding: 0 240px;
+    margin-bottom: 180px;
+}
+.facts-container{
+
+}
+.facts-details{
+    margin-bottom: 100px;
+}
+.facts-text{
+    width: 542px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.facts{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 124px;
+}
+.fact{
+    padding: 55px 36px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+.fact img{
+    margin-bottom: 10px;
+}
+.fact-number{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin-bottom: 5px;
+}
+.fact-name{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
 
 /*-------------------------------
  Responsive Mobile (small device) 
