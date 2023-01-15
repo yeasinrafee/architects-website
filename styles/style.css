@@ -84,7 +84,47 @@ nav{
     margin: 50px auto;
 }
 
-/* Responsive Mobile (small device) */
+/* Gallery Section */
+.section-gallery{
+    padding: 85px 300px 130px;
+}
+.gallery-container{
+    display: flex;
+    gap: 73px;
+    align-items: center;
+}
+.gallery-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.gallery-details{
+
+}
+.gallery-heading{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+.list{
+    font-weight: 500;
+    color: #727272;
+}
+.feat{
+    color: #FF900E;
+}
+.gallery-text{
+    font-size: 16px;
+    line-height: 26px;  
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+/*-------------------------------
+ Responsive Mobile (small device) 
+ --------------------------------*/
 @media screen and (max-width: 576px) {
 
     /* Navigation */
@@ -106,6 +146,7 @@ nav{
     .logo h2{
         font-size: 16px;
     }
+
     /* Banner */
     .section-banner{
         margin-top: 28px;
