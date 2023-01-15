@@ -482,4 +482,17 @@ footer{
     }
 
     /* Work Section  */
+    .section-work{
+        padding: 10px 20px;
+        margin-bottom: 50px;
+    }
+    .work-text{
+        width: 100%;
+    }
+    .work-img{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .work-img img{
+        width: 100%;
+    }
 }
