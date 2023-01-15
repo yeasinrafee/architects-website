@@ -27,6 +27,7 @@ header{
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 /* Navigation Styles */
@@ -57,6 +58,7 @@ nav{
     font-size: 18px;
     font-weight: 500;
     color: #424242;
+    cursor: pointer;
 }
 
 /* Banner Styles */
@@ -190,6 +192,7 @@ nav{
     background: #FF900E;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 .feature-btn span{
     font-weight: 700;
@@ -248,5 +251,41 @@ nav{
     }
     .gallery-images{
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* Features */
+    .section-features{
+        padding: 10px 20px;
+        margin-top: 50px;
+    }
+    .feature-container{
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+    .feature-details{
+        width: 100%;
+    }
+    .feature-heading{
+        width: 100%;
+        font-size: 36px;
+    }
+    .feature-img{
+        width: 100%;
+    }
+    .feature-img img{
+        width: 100%;
+    }
+    .feature-btn{
+        position: relative;
+        bottom: 0;
+        left: 25%;
+
+        padding: 10px 20px;
+        font-size: 16px;
+        margin: 15px 0;
+    }
+    .feature-btn span{
+        font-size: 30px;
     }
 }
