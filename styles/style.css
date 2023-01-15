@@ -229,11 +229,11 @@ nav {
   -o-transition: 0.6s;
 }
 .fact:hover {
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
   z-index: 2;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
