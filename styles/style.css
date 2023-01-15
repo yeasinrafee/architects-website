@@ -273,6 +273,21 @@ nav{
     filter: grayscale(100%);
 }
 
+/* Footer Section  */
+footer{
+    padding: 0 240px;
+    margin-bottom: 116px;
+}
+.footer{
+    padding: 38px 410px;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+.footer-text{
+    font-size: 16px;
+    text-align: center;
+    color: #424242;
+}
 /*-------------------------------
  Responsive Mobile (small device) 
  --------------------------------*/
@@ -404,5 +419,17 @@ nav{
     }
     .sponsors img{
         width: 100px;
+    }
+
+    /* Footer section */
+    footer{
+        padding: 10px 20px;
+        margin-bottom: 20px;
+    }
+    .footer{
+        padding: 20px 30px;
+    }
+    .footer-text{
+        font-size: 12px;
     }
 }
