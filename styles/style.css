@@ -119,6 +119,84 @@ nav{
     margin-bottom: 32px;
 }
 
+/* Feature-section */
+.section-features{
+    padding: 0 240px;
+    padding-bottom: 130px;
+}
+.feature-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 146px;
+}
+.feature-details{
+    width: 586px;
+}
+.heading-secondary{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+.feature-heading{
+    width: 468px;
+}
+.feature-text{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+.feature-cards{
+
+}
+.feature-card{
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.card-headin{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.card-text{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.feature-img{
+    position: relative;
+}
+.feature-img img{
+    border-radius: 8px;
+}
+.feature-btn{
+    position: absolute;
+    left: -92px;
+    bottom: -77px;
+
+
+    padding: 42px;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+}
+.feature-btn span{
+    font-weight: 700;
+    font-size: 65px;
+}
+
+
 /*-------------------------------
  Responsive Mobile (small device) 
  --------------------------------*/
