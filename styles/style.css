@@ -226,6 +226,7 @@ nav{
     padding: 55px 36px;
     border: 1px solid #FF900E;
     border-radius: 8px;
+    cursor: pointer;
 }
 .fact img{
     margin-bottom: 10px;
@@ -330,5 +331,28 @@ nav{
     }
     .feature-btn span{
         font-size: 30px;
+    }
+
+    /* Facts Section */
+    .section-facts{
+        padding: 10px 20px;
+        margin-top: 60px;
+    }
+    .facts-heading{
+        font-size: 36px;
+    }
+    .facts-details{
+        margin-bottom: 30px;
+    }
+    .facts{
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 50px;
+    }
+    .facts-text{
+        width: 100%;
+    }
+    .fact{
+        padding: 46px 22px;
     }
 }
