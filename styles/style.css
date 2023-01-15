@@ -151,9 +151,6 @@ nav{
     color: #727272;
     margin-bottom: 30px;
 }
-.feature-cards{
-
-}
 .feature-card{
     padding: 30px;
     background: #FFFFFF;
@@ -203,9 +200,6 @@ nav{
 .section-facts{
     padding: 0 240px;
     margin-bottom: 180px;
-}
-.facts-container{
-
 }
 .facts-details{
     margin-bottom: 100px;
@@ -288,6 +282,8 @@ footer{
     text-align: center;
     color: #424242;
 }
+
+
 /*-------------------------------
  Responsive Mobile (small device) 
  --------------------------------*/
